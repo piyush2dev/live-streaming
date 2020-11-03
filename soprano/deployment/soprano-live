@@ -1,4 +1,4 @@
-Description: 'SOPRANO - Live Streaming'
+Description: 'Soprano - Live Streaming'
 
 Parameters:
 
@@ -142,8 +142,8 @@ Metadata:
 Mappings:
   SourceCode:
     General:
-      S3Bucket: CODE_BUCKET
-      KeyPrefix: SOLUTION_NAME/CODE_VERSION
+      S3Bucket: solutions
+      KeyPrefix: live-streaming-on-aws/v2.4.0
   AnonymousData:
     SendAnonymousData:
       Data: Yes
