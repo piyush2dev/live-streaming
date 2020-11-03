@@ -3,7 +3,7 @@ Description: 'SOPRANO - Live Streaming'
 Parameters:
 
   InputType:
-    Description: Specify the input type for MediaLive. Detailed instructions for each input type can be found here https://docs.aws.amazon.com/solutions/latest/live-streaming-on-aws/appendix-a.html
+    Description: Specify the input type for MediaLive.
     Type: String
     Default: URL_PULL
     AllowedValues:
